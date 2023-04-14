@@ -2,12 +2,16 @@
     <main>
         <img src="/image.jpeg" alt="Image">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta rerum totam, nulla velit pariatur itaque possimus animi quos inventore vel accusamus magni nam perferendis enim facere, dignissimos repellendus sequi!</p>
+        <contact-form></contact-form>
     </main>
 </template>
 
 <script>
+import ContactForm from '@/components/ContactForm.vue';
     export default {
-
+        components: {
+            ContactForm
+        }
     }
 </script>
 
